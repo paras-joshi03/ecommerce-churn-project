@@ -1,0 +1,11 @@
+data:
+  file_path: "data/OnlineRetail.xlsx"
+  required_columns:
+    - CustomerID
+    - InvoiceDate
+    - Quantity
+    - UnitPrice
+
+modeling:
+  test_size: 0.2
+  random_state: 42
